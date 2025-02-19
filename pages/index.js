@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from "recharts";
-import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Card } from "../components/ui/card";
+import { Button } from "../components/ui/button";
+import { Input } from "../components/ui/input";
+
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/service-worker.js').then(() => {
